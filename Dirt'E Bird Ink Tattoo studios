@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dirt'E Bird Ink | Tattooing & Commission Art</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #1a1a1a;
+            color: #fff;
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #000;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        .logo {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #ff4500;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+        nav {
+            margin-top: 1rem;
+        }
+
+        nav a {
+            color: #ccc;
+            text-decoration: none;
+            margin: 0 1rem;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #ff4500;
+        }
+
+        main {
+            flex: 1;
+            padding: 2rem 1rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%;
+        }
+
+        section {
+            margin-bottom: 3rem;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 2px solid #ff4500;
+            display: inline-block;
+            padding-bottom: 0.5rem;
+        }
+
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .portfolio-item {
+            background-color: #333;
+            height: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #444;
+            transition: transform 0.3s, border-color 0.3s;
+        }
+
+        .portfolio-item:hover {
+            transform: scale(1.03);
+            border-color: #ff4500;
+        }
+
+        .portfolio-item img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: cover;
+        }
+
+        footer {
+            background-color: #000;
+            text-align: center;
+            padding: 1.5rem 1rem;
+        }
+
+        footer p {
+            color: #666;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">Dirt'E Bird Ink</div>
+        <nav>
+            <a href="#tattoos">Tattoo Work</a>
+            <a href="#commissions">Art Commissions</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="tattoos">
+            <h2>Tattoo Work</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item"><span>[ Tattoo Work 1 ]</span></div>
+                <div class="portfolio-item"><span>[ Tattoo Work 2 ]</span></div>
+                <div class="portfolio-item"><span>[ Tattoo Work 3 ]</span></div>
+                <div class="portfolio-item"><span>[ Tattoo Work 4 ]</span></div>
+                <div class="portfolio-item"><span>[ Tattoo Work 5 ]</span></div>
+                <div class="portfolio-item"><span>[ Tattoo Work 6 ]</span></div>
+            </div>
+        </section>
+
+        <section id="commissions">
+            <h2>Art Commissions</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item"><span>[ Commissioned Art 1 ]</span></div>
+                <div class="portfolio-item"><span>[ Commissioned Art 2 ]</span></div>
+                <div class="portfolio-item"><span>[ Commissioned Art 3 ]</span></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Dirt'E Bird Ink. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
